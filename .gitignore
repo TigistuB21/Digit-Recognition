@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# Environment and Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large dataset files, raw archives, and checkpoints
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.npz
+*.npy
+
+# Model weights & artifact exports (optional: models/ if trained weights are large)
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Raw and generated preprocessed dataset directories (if not intended for git)
+Digit_Raw/
+Digit_Preprocessed/
+Digit_Dataset_32x32/
